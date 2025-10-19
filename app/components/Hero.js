@@ -103,10 +103,10 @@ export default function Hero() {
       </div>
 
       {/* Scroll hint - centered at bottom of hero section */}
-      <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 md:gap-2 text-xs md:text-sm text-zinc-400">
+      {/* <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 md:gap-2 text-xs md:text-sm text-zinc-400">
         <span>Scroll to explore</span>
         <ArrowDown className="animate-bounce" size={14} />
-      </div>
+      </div> */}
     </section>
   );
 }
