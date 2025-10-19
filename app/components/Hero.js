@@ -66,7 +66,7 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="mt-6 md:mt-12 grid grid-cols-3 gap-4 md:gap-6 max-w-md">
+          <div className="mt-6 py-3 md:mt-12 grid grid-cols-3 gap-4 md:gap-6 max-w-md">
             <Stat number="50+" label="Projects" />
             <Stat number="5+" label="Years Exp" />
             <Stat number="100%" label="Client Satisfaction" />
