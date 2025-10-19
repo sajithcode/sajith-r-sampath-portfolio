@@ -172,7 +172,7 @@ export default function Hero() {
           {/* Stats */}
           <motion.div
             variants={itemVariants}
-            className="mt-6 md:mt-10 grid grid-cols-3 gap-4 md:gap-6"
+            className="hidden md:grid mt-6 md:mt-10 grid-cols-3 gap-4 md:gap-6"
           >
             <Stat number="5+" label="Years Experience" />
             <Stat number="50+" label="Projects Completed" />
