@@ -3,7 +3,7 @@ import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative mx-auto max-w-7xl px-4 md:px-6 h-[calc(100vh-3.5rem)] md:h-auto md:pt-24 md:pb-20 flex flex-col justify-center">
+    <section className="relative mx-auto max-w-7xl px-4 md:px-6 h-[calc(100vh-3.5rem)] md:h-screen md:min-h-screen flex flex-col justify-center">
       <div className="grid items-center gap-8 md:gap-12 md:grid-cols-2">
         {/* Left: copy */}
         <div>
@@ -64,13 +64,6 @@ export default function Hero() {
               <Mail size={16} className="md:w-[18px] md:h-[18px]" />
             </a>
           </div>
-
-          {/* Stats */}
-          <div className="mt-6 py-3 md:mt-12 grid grid-cols-3 gap-4 md:gap-6 max-w-md">
-            <Stat number="10+" label="Projects" />
-            <Stat number="5+" label="Technologies" />
-            <Stat number="100+" label="Contributions" />
-          </div>
         </div>
 
         {/* Right: portrait */}
@@ -101,12 +94,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Scroll hint - centered at bottom of hero section */}
-      {/* <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 md:gap-2 text-xs md:text-sm text-zinc-400">
-        <span>Scroll to explore</span>
-        <ArrowDown className="animate-bounce" size={14} />
-      </div> */}
     </section>
   );
 }
